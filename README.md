@@ -1,6 +1,6 @@
 # SWAPI django-rest-framework
 
-Do you remember [our previous project](https://github.com/rmotr-curriculum/wdc-class-5-swapi-clone) about cloning SWAPI? Well, today we will migrate the exact same functionality to use the amazing [django-rest-framework](http://www.django-rest-framework.org/) library. If you ever need to work with Django and RESTful APIs, this is probably the library you want to use. 💪
+We will clone SWAPI the exact same functionality to use the amazing [django-rest-framework](http://www.django-rest-framework.org/) library. If you ever need to work with Django and RESTful APIs, this is probably the library you want to use. 💪
 
 ## 1) Setting up the environment
 
@@ -14,7 +14,7 @@ Note, version `3.8.2` is the latest at the moment of writing this file. Make sur
 
 ## 2) What can DRF do for me?
 
-If you remember from our previous project, we needed to define custom Django views to handle all the different action for the `People` model. That is: creating new objects, updating existing one, getting the list of all objects, getting the detail of one particular object, deleting objects, etc.
+we needed to define custom Django views to handle all the different action for the `People` model. That is: creating new objects, updating existing one, getting the list of all objects, getting the detail of one particular object, deleting objects, etc.
 
 We needed to handle everything manually. That means, evaluate the request HTTP method, determine if it was a "detail" or "listing" view, looking up for the object / list of objects, handling the response status, content type, etc.
 
